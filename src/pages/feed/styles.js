@@ -1,14 +1,8 @@
 import styled from 'styled-components';
+import { Container as ContainerStyled } from "../../components/Container";
 
-export const Container = styled.main`
-    width: 100%;
-    max-width: 80%;
-    margin: 0 auto;
-    margin-top: 120px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+export const Container = styled(ContainerStyled)`
+    align-items: start;
 `
 
 export const Title = styled.h3`
@@ -37,5 +31,3 @@ export const Column = styled.div`
     padding-right: 24px;
 
 `
-
-

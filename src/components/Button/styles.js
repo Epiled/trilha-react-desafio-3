@@ -9,10 +9,14 @@ export const ButtonContainer = styled.button`
     padding: 2px 12px;
     min-width: 120px;
     width: 100%;
+
+    border: 0;
+    font-size: 18px;
     
     ${({variant}) => variant !== "primary" && css`
         min-width: 167px;
         height: 33px;
+        width: auto;
         
         background: #E4105D;
 
